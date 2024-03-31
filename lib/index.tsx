@@ -8,4 +8,6 @@ function TestComponent() {
     )
 }
 
-export default TestComponent;
+export {
+    TestComponent
+}
