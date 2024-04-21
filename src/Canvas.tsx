@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import { CanvasStyle } from "./Canvas.css.ts"
+import { canvasStyle } from "./Canvas.css.ts"
 
 interface CanvasProps {
     children: ReactNode
@@ -8,7 +8,7 @@ interface CanvasProps {
 
 function Canvas({ children }: CanvasProps) {
     return (
-        <div className={CanvasStyle}>
+        <div className={canvasStyle}>
             { children }
         </div>
     )

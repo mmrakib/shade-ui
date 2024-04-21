@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css'
 
-export const CanvasStyle = style({
+export const canvasStyle = style({
     height: '100vh',
     width: '100vw',
     margin: '0',
