@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css'
 
-export const basicButtonStyle = style({
+export const buttonStyle = style({
     backgroundColor: '#4f46e5',
     color: 'white',
     border: 'none',

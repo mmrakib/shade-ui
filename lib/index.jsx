@@ -1,5 +1,7 @@
-import BasicButton from "./Buttons/BasicButton/BasicButton.jsx"
+// Button imports
+import Button from "./Buttons/Button/Button.jsx"
 
-export { 
-    BasicButton 
+export {
+    // Buttons
+    Button 
 }

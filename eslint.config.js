@@ -1,9 +1,17 @@
+// Base rules import
 import js from "@eslint/js";
+
+// Global variables import
 import globals from "globals";
+
+// React-specific rules imports
 import react from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 
+//
+// Configuration
+//
 export default [
     { ignores: ["dist"] },
     {
