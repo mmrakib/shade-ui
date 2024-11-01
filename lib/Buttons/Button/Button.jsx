@@ -1,6 +1,6 @@
 import { buttonStyle } from "./Button.css.jsx"
 
-export default function BasicButton({ children, onClick, disabled }) {
+export default function Button({ children, onClick, disabled,}) {
     return (
         <button
             className={buttonStyle}
