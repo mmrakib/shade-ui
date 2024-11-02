@@ -13,7 +13,7 @@ import { fileURLToPath } from 'url'
 // Constants
 //
 const CURRENT_DIR_NAME = dirname(fileURLToPath(import.meta.url))
-const PACKAGE_NAME = 'atlas-ui'
+const PACKAGE_NAME = 'shade-ui'
 const LIB_MAIN_FILE = 'lib/index.jsx'
 
 //
