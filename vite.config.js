@@ -3,7 +3,6 @@ import { defineConfig } from "vite"
 
 // Plugin imports
 import react from "@vitejs/plugin-react-swc"
-import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin'
 
 // Utility imports
 import { resolve, dirname } from 'path'
@@ -20,7 +19,7 @@ const LIB_MAIN_FILE = 'lib/index.jsx'
 // Configuration
 //
 export default defineConfig({
-    plugins: [react(), vanillaExtractPlugin()],
+    plugins: [react()],
     build: {
         lib: {
             entry: resolve(CURRENT_DIR_NAME, LIB_MAIN_FILE),
@@ -28,7 +27,7 @@ export default defineConfig({
             fileName: (format) => `${PACKAGE_NAME}.${format}.js`,
         },
         rollupOptions: {
-            external: ['react', 'react-dom', 'react/jsx-runtime', '@vanilla-extract/css'],
+            external: ['react', 'react-dom', 'react/jsx-runtime'],
             output: {
                 globals: {
                     react: 'React',

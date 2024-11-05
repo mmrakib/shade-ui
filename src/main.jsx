@@ -3,7 +3,7 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 
 // Global styles import
-import './GlobalStyles.css.jsx'
+import './global.scss'
 
 // Canvas import
 import Canvas from './Canvas.jsx'

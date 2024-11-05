@@ -1,8 +1,8 @@
-import { canvasDivStyle } from "./Canvas.css.jsx"
+import './Canvas.scss'
 
 export default function Canvas({ children }) {
     return (
-        <div className={canvasDivStyle}>
+        <div className='canvasDivStyle'>
             {children}
         </div>
     )
